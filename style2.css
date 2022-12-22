@@ -1,0 +1,32 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+.div{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.first-tittle{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+.tittle{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+.par{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+
+}
+.link{
+    color: rgb(214, 148, 42);
+    text-decoration: none;
+}
