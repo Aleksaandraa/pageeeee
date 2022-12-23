@@ -1,12 +1,33 @@
 .first-div{
-    background-color: rgb(103, 10, 10);
+    background-image:url(background.png) ;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 30%;
 }
+
 .box{
     height: 100%;
  }
  * {
     box-sizing: border-box;
   }
+.child11{
+    text-align: center;
+
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(37, 37, 37, 0.525);
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
 .child1{
     float: left;
     width: 50%;
@@ -20,6 +41,7 @@
     margin-top: 30px;
    
 }
+
 .flex-container:after {
     content: "";
     display: table;
@@ -37,55 +59,23 @@
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 40px;
+
 }
-.fast {
-    height: 50px;	
-    overflow:hidden;
-    position: relative;
-    background:rgb(103, 10, 10);
+.parr{
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(103, 10, 10);
-   }
-   .fast p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    margin-left: 40px;
-    font-size: 30px;
-    font-weight: bolder;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* Starting position */
-    -moz-transform:translateY(50%);
-    -webkit-transform:translateY(50%);	
-    transform:translateY(50%);
-    /* Apply animation to this element */	
-    -moz-animation: fast 1s linear infinite alternate;
-    -webkit-animation: fast 1s linear infinite alternate;
-    animation: fast 1s linear infinite alternate;
-   }
-   /* Move it (define the animation) */
-   @-moz-keyframes fast {
-    0%   { -moz-transform: translateY(50%); }
-    100% { -moz-transform: translateY(-50%); }
-   }
-   @-webkit-keyframes fast {
-    0%   { -webkit-transform: translateY(50%); }
-    100% { -webkit-transform: translateY(-50%); }
-   }
-   @keyframes fast {
-    0%   { 
-    -moz-transform: translateY(50%); /* Browser bug fix */
-    -webkit-transform: translateY(50%); /* Browser bug fix */
-    transform: translateY(50%); 		
-    }
-    100% { 
-    -moz-transform: translateY(-50%); /* Browser bug fix */
-    -webkit-transform: translateY(-50%); /* Browser bug fix */
-    transform: translateY(-50%); 
-    }
-   }
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid transparent;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
 
   .cards-img{
     width: 100%;
@@ -109,26 +99,31 @@
     width: 100%;
   }
   .second-div{
-    background-color: rgb(198, 201, 198);
+    background-image:url(background2.png) ;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+ margin-top: -30px;
+ margin-bottom: -20px;
+
   }
   .second-div-child1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-padding: 70px;
-  }
-  .second-div-child2{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 70px;
+padding: 50px;
 
   }
+
 .image2{
-  width: 25%;
+  width: 23%;
   border-radius: 30px;
+  padding-left: 10px;
 
 
 }
@@ -144,20 +139,6 @@ padding: 70px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
  
   }
-
-
-
-
-
-.third-div{
-    background-color: rgb(103, 10, 10);
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.image{
-    width: 30%;
-}
 .tittle4{
     color:black;
     font-size: 50px;
@@ -178,10 +159,10 @@ padding: 70px;
     
 }
 .fourth-div{
-    background-color: rgb(198, 201, 198);
+    background-color: rgb(4, 8, 41);
 }
 .tittle4{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -192,7 +173,7 @@ padding: 70px;
     margin-left: 50px;
 }
 .card2{
-    background-color: rgb(103, 10, 10);
+    background-color: rgba(255, 255, 255, 0.192);
     width: 32%;
     border-radius:20px;
     box-shadow: rgba(35, 35, 35, 0.25) 0px 54px 55px, rgba(43, 43, 43, 0.511) 0px -12px 30px, rgba(28, 28, 28, 0.12) 0px 4px 6px, rgba(17, 17, 17, 0.17) 0px 12px 13px, rgba(28, 28, 28, 0.753) 0px -3px 5px;
@@ -354,6 +335,28 @@ width: 0%;
    .image2{
     width: 100%;
    }
+   .first-div{
+    background-image:url(phone.png) ;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    background-color: rgb(5, 5, 35);
+    margin-top: -21%;
+ 
+}
+.second-div{
+ background-image: none;
+    background-color: rgb(5, 5, 35);
+
+}
+
+
    
 }
 @media only screen and (device-width: 768px) {
