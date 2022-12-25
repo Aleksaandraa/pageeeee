@@ -342,9 +342,7 @@ s
     font-size: 15px;
 }
 .second-div{
-
     background-color: rgb(5, 5, 35);
-
 }
 .imageee{
     width: 100%;
@@ -357,11 +355,8 @@ s
     font-weight: normal;
     text-align: start;
 }
-
 .overlay{
-
     width: 100%;
-  
 }
 .popup{
   display: inline-block;
@@ -376,9 +371,7 @@ min-width: 100%;
   margin-right: auto;
   width: 85%;
   background-color: rgb(4, 4, 32);
-
  }
-
  .cards3{
   display: flex;
   flex-direction: row;
@@ -391,7 +384,6 @@ align-items: center;
     width: 100%;
     margin-top: 10px;
 }
-
 .link{
     font-size: 15px;
     text-decoration: none;
@@ -400,6 +392,10 @@ align-items: center;
 .free{
     font-weight: normal;
 }
+
+.image22{
+  width: 100%;
+}
    
 }
 @media only screen and (device-width: 768px) {
@@ -407,6 +403,9 @@ align-items: center;
     display: flex;
     flex-wrap: nowrap;
    }
+   .image22{
+    width: 100%;
+  }
   }
 .card1:hover {
     transform: translateY(-5px);
@@ -523,26 +522,7 @@ justify-content: center;
    border-radius: 10px;
    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
 }
-.button22{
-    background-color: rgb(78, 41, 2);
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 40%;
-    padding-top: 7px;
-    padding-bottom: 5px;
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: rgba(255, 255, 255, 0.477) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
-    text-decoration: none;
-    border-radius: 10px;
-    border: 2px solid white;
 
-
-}
 .free{
     color: rgba(104, 104, 104, 0.961);
     text-align: center;
@@ -554,4 +534,12 @@ display: block;
     font-size: 25px;
     text-decoration: none;
     color: white;
+}
+.image22{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px;
 }
