@@ -1,14 +1,6 @@
 .first-div{
-    background-image:url(background.png) ;
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 20%;
-    padding-bottom: 30%;
+    background-color: rgb(5, 5, 35);
+    padding-bottom: 150px;
 }
 
 .box{
@@ -41,7 +33,20 @@
     margin-top: 30px;
    
 }
-
+.imageee{
+    width: 100%;
+    border: 5px solid white;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+.imageeee{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 5px solid white;
+    box-shadow: rgba(255, 255, 255, 0.265) 0px 50px 100px -20px, rgba(255, 255, 255, 0.155) 0px 30px 60px -30px, rgba(255, 255, 255, 0.269) 0px -2px 6px 0px inset;
+}
 .flex-container:after {
     content: "";
     display: table;
@@ -328,21 +333,7 @@ width: 0%;
    .image2{
     width: 100%;
    }
-   .first-div{
-    background-image:url(phone.png) ;
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 20%;
-    padding-bottom: 30%;
-    background-color: rgb(5, 5, 35);
-    margin-top: -21%;
- 
-}
+s
 .tittle{
     font-size: 25px;
     padding-top: 150px;
@@ -355,8 +346,60 @@ width: 0%;
     background-color: rgb(5, 5, 35);
 
 }
+.imageee{
+    width: 100%;
+}
+.imageeee{
+    width: 100%;
+}
+.parr{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: start;
+}
 
+.overlay{
 
+    width: 100%;
+  
+}
+.popup{
+  display: inline-block;
+  position: relative;
+min-width: 100%;
+  height: fit-content;
+  background-color: rgb(4, 4, 32);
+}
+ .pop-div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: rgb(4, 4, 32);
+
+ }
+
+ .cards3{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+ }
+.button2{
+  font-size: 25px;
+}
+.image2{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.link{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.free{
+    font-weight: normal;
+}
    
 }
 @media only screen and (device-width: 768px) {
@@ -374,4 +417,141 @@ width: 0%;
     text-decoration: none;
     font-size: 25px;
   }
+  .overlay {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
   
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: rgba(2, 1, 21, 0.653);
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 1;
+    border: 5px solid rgb(255, 255, 255);
+
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color:rgb(155, 26, 14);
+  }
+  .pop-div{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .first-par{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  }
+  .second-par{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  margin-top: -20px;
+  }
+  .third-par{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  margin-top: -20px;
+  }
+  .cards3{
+    display: flex;
+    flex-wrap: wrap;
+
+justify-content: center;
+
+  }
+  .card3{
+    background-color: rgb(133, 10, 10);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    width:40%;
+    margin-bottom: 30px;
+   margin-right: 10px;
+    padding: 15px;
+   border-radius: 10px;
+   box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+}
+.button22{
+    background-color: rgb(78, 41, 2);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(255, 255, 255, 0.477) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid white;
+
+
+}
+.free{
+    color: rgba(104, 104, 104, 0.961);
+    text-align: center;
+    font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -1px;
+}
+.link{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
